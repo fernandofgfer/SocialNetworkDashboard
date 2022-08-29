@@ -5,7 +5,6 @@
 #import <Foundation/Foundation.h>
 #import <TMTumblrSDK/TMURLSession.h>
 #import <TMTumblrSDK/TMAPIApplicationCredentials.h>
-#import "NSURL+CommonDirectories.h"
 #import <TMTumblrSDK/TMSession.h>
 #import <TMTumblrSDK/TMRequestFactory.h>
 #import <TMTumblrSDK/TMRequest.h>

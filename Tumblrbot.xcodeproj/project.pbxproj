@@ -53,7 +53,6 @@
 		D39FA0031A19673A004914C2 /* Tumblrbot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D39FA0011A19673A004914C2 /* Tumblrbot.xcdatamodeld */; };
 		D39FA00A1A19673A004914C2 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39FA0091A19673A004914C2 /* Resources.xcassets */; };
 		D39FA00D1A19673A004914C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39FA00B1A19673A004914C2 /* LaunchScreen.xib */; };
-		D3EFCEF21CAAF95300D06ACB /* NSURL+CommonDirectories.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EFCEF11CAAF95300D06ACB /* NSURL+CommonDirectories.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,8 +122,6 @@
 		D39FA0121A19673A004914C2 /* TumblrbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrbotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39FA0171A19673A004914C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D39FA0221A196835004914C2 /* Tumblrbot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tumblrbot-Bridging-Header.h"; sourceTree = "<group>"; };
-		D3EFCEF01CAAF95300D06ACB /* NSURL+CommonDirectories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+CommonDirectories.h"; sourceTree = "<group>"; };
-		D3EFCEF11CAAF95300D06ACB /* NSURL+CommonDirectories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+CommonDirectories.m"; sourceTree = "<group>"; };
 		EE96238005615C73E11C6FD1 /* libPods-TumblrbotTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TumblrbotTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E15DD798093D12758A1E9E /* Pods-TumblrbotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrbotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrbotTests/Pods-TumblrbotTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -407,7 +404,6 @@
 				07E838DE284CB39C0089F7D4 /* Utils */,
 				0797CFF42846721600D30EC8 /* Modules */,
 				0797CFCA2843BF0D00D30EC8 /* Network */,
-				D3EFCEEB1CAAF8F500D06ACB /* Categories */,
 				D3EFCEE71CAAF7D400D06ACB /* Core Data */,
 				D39F9FFF1A19673A004914C2 /* AppDelegate.swift */,
 				D39FA0091A19673A004914C2 /* Resources.xcassets */,
@@ -455,15 +451,6 @@
 				0797CF9F2840268500D30EC8 /* CoreDataManagerProtocol.swift */,
 			);
 			name = "Core Data";
-			sourceTree = "<group>";
-		};
-		D3EFCEEB1CAAF8F500D06ACB /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				D3EFCEF01CAAF95300D06ACB /* NSURL+CommonDirectories.h */,
-				D3EFCEF11CAAF95300D06ACB /* NSURL+CommonDirectories.m */,
-			);
-			name = Categories;
 			sourceTree = "<group>";
 		};
 		EEEE4CDD9550E03FE8B0AD69 /* Pods */ = {
@@ -646,7 +633,6 @@
 				0797CF9E284025F900D30EC8 /* CoreDataManager.swift in Sources */,
 				07E838E0284CB3A90089F7D4 /* ImageDowloader.swift in Sources */,
 				0797CFFD284672AC00D30EC8 /* DashboardPresenter.swift in Sources */,
-				D3EFCEF21CAAF95300D06ACB /* NSURL+CommonDirectories.m in Sources */,
 				0797CFC328438BCE00D30EC8 /* DashboardResponse.swift in Sources */,
 				0781C9592849205300CBCAA0 /* PostCellItemFactory.swift in Sources */,
 				0797CFFF284672D300D30EC8 /* DashboardPresenterProtocol.swift in Sources */,
