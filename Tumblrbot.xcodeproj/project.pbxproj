@@ -51,8 +51,6 @@
 		9A694CE7CBAD74922667671F /* libPods-TumblrbotTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE96238005615C73E11C6FD1 /* libPods-TumblrbotTests.a */; };
 		D39FA0001A19673A004914C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39F9FFF1A19673A004914C2 /* AppDelegate.swift */; };
 		D39FA0031A19673A004914C2 /* Tumblrbot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D39FA0011A19673A004914C2 /* Tumblrbot.xcdatamodeld */; };
-		D39FA0051A19673A004914C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39FA0041A19673A004914C2 /* ViewController.swift */; };
-		D39FA0081A19673A004914C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39FA0061A19673A004914C2 /* Main.storyboard */; };
 		D39FA00A1A19673A004914C2 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39FA0091A19673A004914C2 /* Resources.xcassets */; };
 		D39FA00D1A19673A004914C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39FA00B1A19673A004914C2 /* LaunchScreen.xib */; };
 		D3EFCEF21CAAF95300D06ACB /* NSURL+CommonDirectories.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EFCEF11CAAF95300D06ACB /* NSURL+CommonDirectories.m */; };
@@ -120,8 +118,6 @@
 		D39F9FFE1A19673A004914C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D39F9FFF1A19673A004914C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D39FA0021A19673A004914C2 /* Tumblrbot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tumblrbot.xcdatamodel; sourceTree = "<group>"; };
-		D39FA0041A19673A004914C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D39FA0071A19673A004914C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D39FA0091A19673A004914C2 /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources.xcassets; sourceTree = "<group>"; };
 		D39FA00C1A19673A004914C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D39FA0121A19673A004914C2 /* TumblrbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrbotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -414,8 +410,6 @@
 				D3EFCEEB1CAAF8F500D06ACB /* Categories */,
 				D3EFCEE71CAAF7D400D06ACB /* Core Data */,
 				D39F9FFF1A19673A004914C2 /* AppDelegate.swift */,
-				D39FA0041A19673A004914C2 /* ViewController.swift */,
-				D39FA0061A19673A004914C2 /* Main.storyboard */,
 				D39FA0091A19673A004914C2 /* Resources.xcassets */,
 				D39FA00B1A19673A004914C2 /* LaunchScreen.xib */,
 				D39FA0011A19673A004914C2 /* Tumblrbot.xcdatamodeld */,
@@ -570,7 +564,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39FA0081A19673A004914C2 /* Main.storyboard in Resources */,
 				07E38B6C2858D4E7003E0518 /* Localizable.strings in Resources */,
 				D39FA00D1A19673A004914C2 /* LaunchScreen.xib in Resources */,
 				D39FA00A1A19673A004914C2 /* Resources.xcassets in Resources */,
@@ -659,7 +652,6 @@
 				0797CFFF284672D300D30EC8 /* DashboardPresenterProtocol.swift in Sources */,
 				07E838E2284E181C0089F7D4 /* Date+extensions.swift in Sources */,
 				0797D0042846736300D30EC8 /* DashboardInteractorProtocol.swift in Sources */,
-				D39FA0051A19673A004914C2 /* ViewController.swift in Sources */,
 				0797CFFA2846725800D30EC8 /* DashboardViewProtocol.swift in Sources */,
 				0797D007284673CD00D30EC8 /* AssemblerProtocol.swift in Sources */,
 				0797CFA02840268500D30EC8 /* CoreDataManagerProtocol.swift in Sources */,
@@ -704,14 +696,6 @@
 				07E38B6D2858D4E7003E0518 /* en */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		D39FA0061A19673A004914C2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D39FA0071A19673A004914C2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D39FA00B1A19673A004914C2 /* LaunchScreen.xib */ = {

@@ -24,8 +24,6 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -47,9 +45,9 @@
 	<string>$(consumerKey)</string>
 	<key>consumerSecret</key>
 	<string>$(consumerSecret)</string>
-	<key>token</key>
-	<string>$(token)</string>
 	<key>secret</key>
 	<string>$(secret)</string>
+	<key>token</key>
+	<string>$(token)</string>
 </dict>
 </plist>
