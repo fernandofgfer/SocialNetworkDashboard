@@ -42,11 +42,18 @@ If a user scrolls the app, the network layer will fetch more data updating the l
 If the app doesn’t have reachability, it will fetch data from CoreData directly.
 To avoid inconsistency problems if a user is losing network connectivity, the app saves the last timestamp and uses it to fetch posts from this timestamp.
 
+## Image management
+
+To avoid download images more than once, the images are being stored in a File in order to catch them.
+
 ## UI 👩‍🎨
 The dashboard is a UITableViewController that has only one cell type: `DashboardCell`.
 This cell will allow the injection of a UIView within the information to show.
 Currently, the app is prepared to show images or text. The Video is not ready yet.
-To inject the view inside the cell, we have `PostCellItemFactoryProtocol to return any type of content.
+To inject the view inside the cell, we have `PostCellItemFactoryProtocol` to return any type of content.
+
+## Security 🔒
+To protect secrets keys I've added a secrets xcconfig file. The idea is to include this file in gitignore and avoid to have keys in our repository. 
 
 ## Unit test ✅
 I’ve added unit tests to cover all business logic parts and also the CoreData mapper part.
