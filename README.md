@@ -42,8 +42,7 @@ If a user scrolls the app, the network layer will fetch more data updating the l
 If the app doesn’t have reachability, it will fetch data from CoreData directly.
 To avoid inconsistency problems if a user is losing network connectivity, the app saves the last timestamp and uses it to fetch posts from this timestamp.
 
-## Image management
-
+## Image management 🖼️
 To avoid download images more than once, the images are being stored in a File in order to catch them.
 
 ## UI 👩‍🎨
