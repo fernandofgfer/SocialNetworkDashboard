@@ -1,0 +1,20 @@
+PODS:
+  - ReachabilitySwift (5.0.0)
+  - TMTumblrSDK (5.3.1)
+
+DEPENDENCIES:
+  - ReachabilitySwift
+  - TMTumblrSDK (~> 5.3.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ReachabilitySwift
+    - TMTumblrSDK
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  TMTumblrSDK: 69939c71def35de3510d631b69ba3154a0a8f758
+
+PODFILE CHECKSUM: 4adb358bb37354e22216ed650996e58bd9494ac6
+
+COCOAPODS: 1.11.2

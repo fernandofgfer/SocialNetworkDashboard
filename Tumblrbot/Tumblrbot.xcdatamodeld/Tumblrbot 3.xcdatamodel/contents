@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E230" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PostContentEntity" representedClassName="PostContentEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="subtype" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="formatting" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PostFormattingEntity" inverseName="content" inverseEntity="PostFormattingEntity"/>
+        <relationship name="imageMedia" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PostMediaEntity" inverseName="contentImage" inverseEntity="PostMediaEntity"/>
+        <relationship name="post" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PostEntity" inverseName="content" inverseEntity="PostEntity"/>
+        <relationship name="videoMedia" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PostMediaEntity" inverseName="contentVideo" inverseEntity="PostMediaEntity"/>
+    </entity>
+    <entity name="PostEntity" representedClassName="PostEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="timestamp" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="content" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PostContentEntity" inverseName="post" inverseEntity="PostContentEntity"/>
+    </entity>
+    <entity name="PostFormattingBlogEntity" representedClassName="PostFormattingBlogEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+        <relationship name="formatting" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PostFormattingEntity" inverseName="blog" inverseEntity="PostFormattingEntity"/>
+    </entity>
+    <entity name="PostFormattingEntity" representedClassName="PostFormattingEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="end" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hex" optional="YES" attributeType="String"/>
+        <attribute name="start" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <relationship name="blog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PostFormattingBlogEntity" inverseName="formatting" inverseEntity="PostFormattingBlogEntity"/>
+        <relationship name="content" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PostContentEntity" inverseName="formatting" inverseEntity="PostContentEntity"/>
+    </entity>
+    <entity name="PostMediaEntity" representedClassName="PostMediaEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="height" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" attributeType="String"/>
+        <attribute name="width" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="contentImage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PostContentEntity" inverseName="imageMedia" inverseEntity="PostContentEntity"/>
+        <relationship name="contentVideo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PostContentEntity" inverseName="videoMedia" inverseEntity="PostContentEntity"/>
+    </entity>
+    <elements>
+        <element name="PostContentEntity" positionX="-787.3799438476562" positionY="-328.3642578125" width="128" height="134"/>
+        <element name="PostEntity" positionX="-299.0286254882812" positionY="-161.3655395507812" width="128" height="89"/>
+        <element name="PostFormattingBlogEntity" positionX="-304.6077880859375" positionY="-39.95623779296875" width="128" height="89"/>
+        <element name="PostFormattingEntity" positionX="-51.9964599609375" positionY="-471.4619750976562" width="128" height="134"/>
+        <element name="PostMediaEntity" positionX="-328.9921875" positionY="-541.635498046875" width="128" height="133"/>
+    </elements>
+</model>

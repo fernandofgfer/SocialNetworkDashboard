@@ -1,0 +1,6 @@
+module Pods_Tumblrbot {
+  umbrella header "Pods-Tumblrbot-umbrella.h"
+
+  export *
+  module * { export * }
+}

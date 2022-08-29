@@ -1,0 +1,1274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0095F4412DBCEDA91805CA7E2E7AD42B /* TMNetworkSpeedQuality.h in Headers */ = {isa = PBXBuildFile; fileRef = 867515D0748AC42E73868E1D51389478 /* TMNetworkSpeedQuality.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06182057314020DD2FD55A9F008934F4 /* TMRouteConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDB81297F3DD4FEA440CA11EF8D3883 /* TMRouteConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		093EA49ACEC8E0B7AF951A4E229A386F /* TMAuthenticationResponseProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5999B22499857E241F748408F6AD3 /* TMAuthenticationResponseProcessor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0B3A344DE7C8EA0CB87F9FF9AE8D7061 /* TMOAuthAuthenticatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7CF0EBB7475A17AC78C0980D136D60 /* TMOAuthAuthenticatorDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CFC94F9B13082EFAA849FB7AA43522D /* TMSessionTaskUpdateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 958C641F3CB55764C3A3FC8F0AF7EBF5 /* TMSessionTaskUpdateDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0ECCBCDFDBF496E97367039A77AD9B26 /* TMAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 503DF8DD048DF248328AAAA5F854B302 /* TMAPIClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FAA2EEDFD0873FFAD189198D91E4142 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF64CB6230E6EBAC54979B2E23DF765 /* Reachability.swift */; };
+		11784A0EE5E750C17913A1CB1EA6E43F /* TMHTTPResponseErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = AA008E3DD2C50F4396CED81DACE469E1 /* TMHTTPResponseErrorCodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		122B51A88A8DA813FFF16EA8868F599F /* TMAuthenticationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3D74FA2F0A472F7B1370E3C202F0B /* TMAuthenticationConstants.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1D196B8D85D9C59BB8EA312F941D34E1 /* TMMultipartConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A85D53FC5A25D4580A4CD16B3102A74A /* TMMultipartConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D1A90A6A4BDFE670133E96540211B26 /* TMURLSessionTaskObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E446E0E6A4E03976F02016C95BF0D3D1 /* TMURLSessionTaskObserver.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E7BFF5900A169368FEAB2DE481973D5 /* TMSDKFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D5D42B3EB91B0251F21FAC4D0978E3 /* TMSDKFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		203981170037F36D13C0B10B3D8F51BE /* TMHTTPResponseErrorCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9580E87D44B5255318F8F5B23AF27 /* TMHTTPResponseErrorCodes.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		222C5D5A9B4EC8043797670EE833D86F /* TMLegacyAPIError.m in Sources */ = {isa = PBXBuildFile; fileRef = D15861A7E3B48763828C85FA46C99B8E /* TMLegacyAPIError.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		24557D85FA7FDCA942AFB15E1FF7E436 /* TMURLSessionTaskStateProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA0A20BF6F6B03B0E51C72A94571AB /* TMURLSessionTaskStateProducer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		267B6C278FD16DE893E5301C62414FC9 /* NSURLRequest+TMTumblrSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 678C6A278E65EC4486FD4F000BEB885D /* NSURLRequest+TMTumblrSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2817FA86A7EC56DC27466963F130B3A3 /* TMAPIErrorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9292579FF6EA352CD0CBDD4A204EBA8C /* TMAPIErrorFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28AF96F586E09A527226DC38362B0EAC /* TMMultipartFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1914DA772DFF9EEC24239D4927EAB7 /* TMMultipartFormData.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2D3A0A82847732C52A53AB5BB6D1CA4C /* TMAuthenticationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAA8E280302785C2424AB6E0EEC848B /* TMAuthenticationConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DB11C94FB38774AA06F320FFE9E57D7 /* TMRequestTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = F6622867F824472B8D4CF0D3C5E8C21E /* TMRequestTransformer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30763C9BC0E82B48CDC3FD3476DD1820 /* TMURLConcreteSessionTaskDelegateContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6567BD987B6777EF0AB3F08555F2A80D /* TMURLConcreteSessionTaskDelegateContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30847F70AE907D8156FA27513E48BCF4 /* TMSDKUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A4475F57E5B271C0274F168FC5D16 /* TMSDKUserAgent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32FE1C67F00C3F88913BBF159DA29CDA /* NSURLRequest+TMTumblrSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 00582632E7D077254A5AAEF83B9A2B9E /* NSURLRequest+TMTumblrSDK.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		356E035DDDC2629452501067D7350B25 /* TMQueryEncodedRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BDDC45063541D90DDB0681ED1EB6FB /* TMQueryEncodedRequestBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3898A6094BD1A2771D6E6B4859C91C0E /* TMTumblrSDKErrorDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DCFCD0FB1603491288167ED5834D92 /* TMTumblrSDKErrorDomain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C28359CC34EFA1245DFD3790F81E50B /* TMOAuthAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B226AA71F4618DE0AC4EA0FEF6CDEF /* TMOAuthAuthenticator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		404CB2385311FB25D46E543C401CFE9F /* TMOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9A9D49DEFECDD742E3E6971D044FD3 /* TMOAuth.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		40787DBC563AEE5BCAA657529A3E8C73 /* TMTumblrSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD0E71C17FB0E4AD1B9A72CB488A15 /* TMTumblrSDK-dummy.m */; };
+		4169931ABFB51C2A8EE3A4D0B6FD5D8E /* TMRequestMethodHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E503656E2D6B1797DB43682BF951DC5 /* TMRequestMethodHelpers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		44E8928E4495049088B4C2BB73B7FB83 /* TMURLSessionMetricsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B098B7E417234DA96BCF3297F7DB049 /* TMURLSessionMetricsDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47FE96406CFBEAA5A8DB6729AA2A2B85 /* TMRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CCDFF7356EB1BF94826D4C3878BAB3 /* TMRequestBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48C8714BED459A32DB157E16AB076636 /* TMHTTPRequestMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 185781D1E00DEF7AF675A493ABD3CF6D /* TMHTTPRequestMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4ADB2728B65067F4D070D070EA5F8266 /* TMConcreteURLSessionTaskDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6884F27CE24266FBE1FB795C2B099D /* TMConcreteURLSessionTaskDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FD55F66E4C44CBD052783DA2927B660 /* TMAPIClientCallbackConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B34E58406D4AA314862F68AA7B971DE /* TMAPIClientCallbackConverter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		52211463EA9A68886701C0977605ECE7 /* TMURLSessionObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 861A07D5249F3AFABA5B79352443270F /* TMURLSessionObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53462026F41AE0B6173DAAEFD40C41BF /* TMMultipartFormData.h in Headers */ = {isa = PBXBuildFile; fileRef = 498F42876C2852AF7B76E3846E0A2050 /* TMMultipartFormData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		546B80BBFA7D90129ACB1CD07F8738AA /* TMSDKFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8259A9FA06562C865EF60F2AD2F1E9BE /* TMSDKFunctions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		54E6D60F4C1F7DC9CD62C1122DABDE60 /* TMURLSessionTaskStateProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CDD5E45ACB31DDACAB1F00C2AF2698 /* TMURLSessionTaskStateProducer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		55267F9E6C804C983CB9D7051B6AC557 /* TMAPIErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E53904AA630623954D517A4A55A7AAD6 /* TMAPIErrorFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		56FE3FF41B3729FC9408B3A832621622 /* TMURLSessionCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EAA4C8E2D2A93683A06BEFCC1EDE4A /* TMURLSessionCallbacks.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58900AC8BB39CEA844790EF1C0568764 /* TMRequestFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B0D53B199090D8244AB59A0F924903 /* TMRequestFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		597316524B77CA02EA1295F54B792261 /* TMAPIApplicationCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E60CDF09DDDD6D814D5B5DB0CB5B46E /* TMAPIApplicationCredentials.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BFF4CB26AAD6CC027791B88174A6271 /* TMAPIRequestKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A03182BEAC682F18D306F8F70B809 /* TMAPIRequestKeys.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5CEED056A0303FBA198DC4E6B99BB916 /* TMURLSessionTaskObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE6A2CD98FC5D41B507A0E4C27D02AC /* TMURLSessionTaskObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D17288EF5FF0E0BC28997A32532A62F /* TMRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A0B9C3678356119191C050654C5E75 /* TMRequestFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5E32FD829DFFC4B0317AB6743EA5433B /* TMMultipartRequestBodyFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3625553ACF62D5AD2DD9895E5E3123 /* TMMultipartRequestBodyFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F772F0060FB28A19A85AB489C8A2318 /* TMURLSessionTaskState.h in Headers */ = {isa = PBXBuildFile; fileRef = F8A06D8CF1FD7E7CD45824FDD5FB4BFF /* TMURLSessionTaskState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65274A63CB48FAF1173582B31EC4EB4A /* TMAuthTokenRequestGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9103ACAE796B5C292B2728022EF39D94 /* TMAuthTokenRequestGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66DE442009C5A6A2FBCBFAA8C2CB3D7D /* TMNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E092DD0FC51B84C187F332A8388285 /* TMNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68AB85AD1280428B6BCEC327867A686B /* TMMultipartPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D0E3D1E2D1BB70556962DFC8261B1 /* TMMultipartPart.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		68BBD9D626A033DB419BB7B604B5DF59 /* TMRequestParamaterizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC8F8B0B67970A289038DA5CD12671 /* TMRequestParamaterizer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6AF82C4CCCD60FC82A5383EC51DAA959 /* TMLegacyAPIError.h in Headers */ = {isa = PBXBuildFile; fileRef = D917D5AE276DC051CC8EA26BBD854EB3 /* TMLegacyAPIError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B8EA7CB6876E9D771BC712535C2AC14 /* TMAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7829DF561FD7B760AA9A5B94392A9D48 /* TMAPIRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6B9954DF1659CE010DE1682A00155A2D /* Pods-Tumblrbot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 880F1CBF23AE98CE786EADC73637A02B /* Pods-Tumblrbot-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CF32ED83DFE8DFF5DCE5D62343AE6B2 /* TMTumblrSDKErrorDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0682F8C207590EC27A4B80CE6373F13 /* TMTumblrSDKErrorDomain.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		729319BF979BB007CF1897F8AA21C042 /* TMAPIClientCallbackConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 096CE907F6CCC5483D84AC844197C785 /* TMAPIClientCallbackConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74397FA859C823FFDD3D85B5FF226AEC /* TMJSONEncodedRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B165959E4B01F9774CD1B638F14BDA8 /* TMJSONEncodedRequestBody.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7EBD6901BFF29B6E9ED6308AA6441A41 /* TMURLSessionObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD601FD93BC1B3AFB296C2EADE022C /* TMURLSessionObserver.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7FA77A0B1F8EC40501CF8F1FB593A8CC /* TMTopLevelAPIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD05E465B05F9A96222D897B75FB1EB /* TMTopLevelAPIError.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80ED3A1DBC1ABDD25F3C0B55E0784DFD /* TMMultipartPart.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A06F8B0FC56E405D8F302A0E23BB1FC /* TMMultipartPart.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88DF7D7C8CE5BDDAA187A51A884ED230 /* TMURLConcreteSessionTaskDelegateContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CA49F3AE1A9AA3BF50C5D70251FE36 /* TMURLConcreteSessionTaskDelegateContainer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		91758FE84B33828012252931162F459D /* TMAuthTokenRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B866EE1D58D4A0A139093E45DDCA7C /* TMAuthTokenRequestGenerator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		92294F0553A1A7ED865E92B01C22F4C7 /* TMHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE8237EB8E5E5159CE3DDFABC3ACFC6 /* TMHTTPRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93295854214B0AF70B81CEA20C10DCDC /* TMMultipartConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F292CC1C87488670CB5D9A028348B0 /* TMMultipartConstants.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9413A15BFACF65E909DB3AF1EB6D6D64 /* TMNetworkActivityVisiblityCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279A86A2D799B8BDB6E88D4AB1BA21F /* TMNetworkActivityVisiblityCounter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		95C5C5A128F2CADF343975AC04D56877 /* TMRequestParamaterizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F8FDF2CCB2ED5ECBDC702A3F63A713 /* TMRequestParamaterizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B492922240E5366A717C81E98046860 /* TMGZIPEncodedRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA7C8344A7A0639F4D07726FAD70752 /* TMGZIPEncodedRequestBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BC65E8210622C00FC12D361266A5C89 /* TMResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC565AD103FD05F47A543A4D9096F26 /* TMResponseParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C7AE018A63D4F9CF32B2121C12E0118 /* TMSDKUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE76654CDECB9D1DB950FCB01D729B6 /* TMSDKUserAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0F0D7588DC9674ECCB6881A8814BEAB /* TMAuthenticationResponseProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A246080477772099E27066262E44C4A /* TMAuthenticationResponseProcessor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A179CB1806A1CDA57589790D02F02231 /* TMSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 816C4B5EB75C0BE9C0ECB4934BCECA75 /* TMSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1B13B6AEAC5F67D3B3410DAB4BF093C /* NSMutableURLRequest+TMTumblrSDKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D6133502AF31C8AAA46453ACE6B1C0 /* NSMutableURLRequest+TMTumblrSDKAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A2DA0F579E4B5B3A3F413BB81ECD6B15 /* NSMutableURLRequest+TMTumblrSDKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7414308842B9ACEB240EBF59EC0A5DE3 /* NSMutableURLRequest+TMTumblrSDKAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9103A796E103843695C1CB0206045B9 /* TMAPIUserCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB9646FAFB9DEEE90AC066E99FE3BF6 /* TMAPIUserCredentials.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A964990B2F3944477B899FA4249555D9 /* TMURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B2B7ED8B5A7EA50A78E0DD69DE44B4 /* TMURLSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAE2886922A9D9BA0B21D70BCEB5A898 /* TMNetworkSpeedTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A7E03B1A98D89F63ED38E64D01A626 /* TMNetworkSpeedTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF0B19BBB888B84632C1A926D8A92CB3 /* TMAPIApplicationCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5CA1716F81CE09D91E75A12B7E8D7C /* TMAPIApplicationCredentials.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0F52C5CBDCE7715B6C9288E73BAEC01 /* TMMultipartRequestBodyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 45774A6FFE344671B3873EF0325C9537 /* TMMultipartRequestBodyFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B31D30D1399EE01D21B52AF3D5D7CEDE /* TMFormEncodedRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 922BBD67637CECEBF965339E01D79B8D /* TMFormEncodedRequestBody.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B3FA78D83DB2A663C40944D0FDAE9F03 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29DE82D6B7E77C66B38C5B143B8575E /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7E57CFB4BEF7828B7FFE169E7C14F1C /* TMMultipartRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = C77512B4F84581417366E309A77384EB /* TMMultipartRequestBody.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BBC23D8D058E18D6A11442153B56B495 /* Pods-TumblrbotTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D8FB12B22B5808B6E51384FEA516A7 /* Pods-TumblrbotTests-dummy.m */; };
+		BFFAF960180A65ED65A11A8A102C601F /* TMNetworkSpeedTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD09CA1A3FE2F1B435232231D9FB842 /* TMNetworkSpeedTracker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C09551E7F5E23B8CBFE363356575BED7 /* TMUploadSessionTaskCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102E0F8D4D048CCFCA0DF71A763F96E /* TMUploadSessionTaskCreator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C0DEB90E230EF6BBD65C2D7E9CCD61F0 /* TMXAuthAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B45366A027DA9F29289F265A6C023A /* TMXAuthAuthenticator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2C4A55CEA9E73C2F4CA4F7ADBD85D35 /* TMAPIError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8693CCA58CC458169B6FCE1700438947 /* TMAPIError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2C935013F0971EEAF9F2233266241F7 /* TMXAuthAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0416D6BE277CBA5F4F6CE41DA50EA83C /* TMXAuthAuthenticator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C32F665B44FE082B2CCE93367473D02F /* TMAPIRequestKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 9323439E478C0C678291D7259E622408 /* TMAPIRequestKeys.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C34162E3D340EB5646307E1D217230D4 /* TMParsedHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 366D194A61D564187B85F32510EEEF3C /* TMParsedHTTPResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3C7F1CFDE0ABC80A87E851BAB94BDC6 /* TMAPIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DB460694351798F75410C58AEFBD4606 /* TMAPIRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA672CF8905E898F0ADE3FA2640A298A /* TMRouteConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 974D232EAE4F176713BC1D8F50A65687 /* TMRouteConstants.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CDEB57275ED2062EB9A9F22ABD5042B3 /* TMRequestMethodHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A41B25CED5332835F3A818B1CA4C88 /* TMRequestMethodHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D138871D2A8F551EBF6F606D4ACCAD9E /* TMOAuthAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = F17627F16B12C3B7A296E59A067ED05E /* TMOAuthAuthenticator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1609B1D5272F2A046AE0F48BFE4E4DC /* TMUploadSessionTaskCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C5FC8C4FE6D5FF9188E305C8E8487F /* TMUploadSessionTaskCreator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8A41482338731DB57FA8F83D17E5926 /* TMURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 407FC74B28CB9F4E92C032BA93C9D97E /* TMURLSession.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DBE078A7159AC74D66B379FB8A6C0223 /* TMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E7E7A9456C98EFE51FD7B5E17D34AC /* TMAPIClient.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DC2E8FB1CD72835EAAB0321658AE12EB /* TMTopLevelAPIError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2F45180BC8E35497BC6BCE2B3401A5 /* TMTopLevelAPIError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD30ADB9C8A5FBB56752D3477C00A638 /* TMResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4A5FAE4D7D65209464523CC7A039A /* TMResponseParser.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE5693EA0DB307783FC6D5219A14FF3A /* TMFormEncodedRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 403824B18EB7346E7A4450065F74A5B2 /* TMFormEncodedRequestBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE6EF7F553F9A16AA5499DB42420B327 /* TMAuthenticationCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 608215D323D52F6F039F50C3B52E2134 /* TMAuthenticationCallback.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF80CD96773DB9B37B0F1C944CD6B87B /* TMURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0925D42D73244A98783CF4334C9B5A /* TMURLEncoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2B4660FEE0C64978B2F90A0E9B44443 /* TMOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = C037646D8702429609B3CF7173B732B7 /* TMOAuth.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E48CF5B9ACA37482156B2CBF28D715CC /* TMBasicBaseURLDeterminer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE978373FD17413841FE05CDF4A4145B /* TMBasicBaseURLDeterminer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E4B56F4D51589ECF70434C243A5DF79F /* TMParsedHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FC516580DCC23AD6BF529D99D6302 /* TMParsedHTTPResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E615B36CBAA59F8C6D1BA71C51B12378 /* TMAPIUserCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = D448E9D0ED085C6B65F5F83C5261B7BE /* TMAPIUserCredentials.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAC270928D65BC3C175EC611C00E9095 /* TMURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463729D4406270A9483E036CDE15679 /* TMURLEncoding.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EB81116A678D9F1C67B0F21BBC06F824 /* TMNetworkActivityVisiblityCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE3480291ADED3DA38E5043A46C9376 /* TMNetworkActivityVisiblityCounter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ECFDF47797641B09D1382088D737FC07 /* TMBaseURLDetermining.h in Headers */ = {isa = PBXBuildFile; fileRef = 644D2EEF1204B846E81359688D7615F1 /* TMBaseURLDetermining.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDEA200025D250C0477343BBA8A272BE /* TMGZIPEncodedRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = F27DD18D12A103C9D5EE8BE0A99901BC /* TMGZIPEncodedRequestBody.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F152063A892E46D2832B5CC97B18B76C /* TMJSONEncodedRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D9F9454789165C07C05F4957F844B2 /* TMJSONEncodedRequestBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1C97C5C43449FC71374310956544076 /* TMRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDA4360D705716269BA08E979906B92 /* TMRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F29BB96AA75561A481D16BEA71E38471 /* TMQueryEncodedRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 3736540D58DD0E8E8A4C0EAFE7DB69C6 /* TMQueryEncodedRequestBody.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F34B6786BC71261EEA45E57C4A4862BA /* Pods-Tumblrbot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE34E53102BCADFF2408CA062F18D6 /* Pods-Tumblrbot-dummy.m */; };
+		F5E5F41AF76D1C574146826EA77160F6 /* TMConcreteURLSessionTaskDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E7C071AA2E30E9C1482AF7478326F /* TMConcreteURLSessionTaskDelegate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F84CCCFFD3EBDEB1A19E96562D1128A2 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650C74577D9844F0436F70C2B6ABB14 /* ReachabilitySwift-dummy.m */; };
+		F9E5948416457A7B41B26B3EA2B4F415 /* TMFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 522ECF56CBA8F7CB02B7D9E926FAEBEB /* TMFunctions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FC717D416BDEBDF35FBDC9EEE655C18C /* TMHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6578C574A7247439ED0547D38DD9144 /* TMHTTPRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FD61059D4C9E40ACEABF3FBD0225953E /* TMFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 642A79A0EE94A9FBE20A4BEEC733118B /* TMFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD6526495CBC988950171F5926271787 /* TMMultipartRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 282A7AE0491B04A96A8C0D4A822D4A05 /* TMMultipartRequestBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEDD86673D73A47AF352BD9764B1DFEB /* TMBasicBaseURLDeterminer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC0A01898FAAFCCD2717F976211553D /* TMBasicBaseURLDeterminer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02DCA44705525DCBD2C276004C5DC1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		BD6131D693D1645E00981170131DF218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3908F5436F138B90E9D50B4EA4E2EA;
+			remoteInfo = "Pods-Tumblrbot";
+		};
+		E549D17D1F038EE398D45B3D94DF8EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0EBFD1658612C2FBF8B700F4D06669;
+			remoteInfo = TMTumblrSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00582632E7D077254A5AAEF83B9A2B9E /* NSURLRequest+TMTumblrSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+TMTumblrSDK.m"; path = "Classes/Networking/NSURLRequest+TMTumblrSDK.m"; sourceTree = "<group>"; };
+		0416D6BE277CBA5F4F6CE41DA50EA83C /* TMXAuthAuthenticator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMXAuthAuthenticator.m; path = Classes/Auth/TMXAuthAuthenticator.m; sourceTree = "<group>"; };
+		0463729D4406270A9483E036CDE15679 /* TMURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMURLEncoding.m; path = Classes/Networking/TMURLEncoding.m; sourceTree = "<group>"; };
+		04BDDC45063541D90DDB0681ED1EB6FB /* TMQueryEncodedRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMQueryEncodedRequestBody.h; path = Classes/Networking/RequestBody/TMQueryEncodedRequestBody.h; sourceTree = "<group>"; };
+		071A5B6413BC7BF707F1F5E35C004EB2 /* TMTumblrSDK */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = TMTumblrSDK; path = libTMTumblrSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D6133502AF31C8AAA46453ACE6B1C0 /* NSMutableURLRequest+TMTumblrSDKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableURLRequest+TMTumblrSDKAdditions.m"; path = "Classes/Networking/NSMutableURLRequest+TMTumblrSDKAdditions.m"; sourceTree = "<group>"; };
+		08F4A5FAE4D7D65209464523CC7A039A /* TMResponseParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMResponseParser.m; path = "Classes/Response Parsing/TMResponseParser.m"; sourceTree = "<group>"; };
+		096CE907F6CCC5483D84AC844197C785 /* TMAPIClientCallbackConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIClientCallbackConverter.h; path = "Classes/Response Parsing/TMAPIClientCallbackConverter.h"; sourceTree = "<group>"; };
+		0A246080477772099E27066262E44C4A /* TMAuthenticationResponseProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAuthenticationResponseProcessor.h; path = Classes/Auth/TMAuthenticationResponseProcessor.h; sourceTree = "<group>"; };
+		0A2FC516580DCC23AD6BF529D99D6302 /* TMParsedHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMParsedHTTPResponse.m; path = "Classes/Response Parsing/TMParsedHTTPResponse.m"; sourceTree = "<group>"; };
+		11BD601FD93BC1B3AFB296C2EADE022C /* TMURLSessionObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMURLSessionObserver.m; path = Classes/Networking/TMURLSessionObserver.m; sourceTree = "<group>"; };
+		185781D1E00DEF7AF675A493ABD3CF6D /* TMHTTPRequestMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMHTTPRequestMethod.h; path = Classes/TMHTTPRequestMethod.h; sourceTree = "<group>"; };
+		18F170465A5EE5B43812D5BBEF670AC1 /* TMTumblrSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMTumblrSDK-prefix.pch"; sourceTree = "<group>"; };
+		1A06F8B0FC56E405D8F302A0E23BB1FC /* TMMultipartPart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMultipartPart.h; path = Classes/Networking/Multipart/TMMultipartPart.h; sourceTree = "<group>"; };
+		1ABC8F8B0B67970A289038DA5CD12671 /* TMRequestParamaterizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMRequestParamaterizer.m; path = Classes/TMRequestHelpers/TMRequestParamaterizer.m; sourceTree = "<group>"; };
+		1B34E58406D4AA314862F68AA7B971DE /* TMAPIClientCallbackConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIClientCallbackConverter.m; path = "Classes/Response Parsing/TMAPIClientCallbackConverter.m"; sourceTree = "<group>"; };
+		1C7B308031A97C856CA8CC733551AE45 /* Pods-Tumblrbot */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Tumblrbot"; path = "libPods-Tumblrbot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD05E465B05F9A96222D897B75FB1EB /* TMTopLevelAPIError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTopLevelAPIError.m; path = Classes/Errors/TMTopLevelAPIError.m; sourceTree = "<group>"; };
+		2102E0F8D4D048CCFCA0DF71A763F96E /* TMUploadSessionTaskCreator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUploadSessionTaskCreator.m; path = Classes/Networking/TMUploadSessionTaskCreator.m; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ReachabilitySwift; path = libReachabilitySwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E092DD0FC51B84C187F332A8388285 /* TMNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMNetworkActivityIndicatorManager.h; path = Classes/Networking/TMNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		2650C74577D9844F0436F70C2B6ABB14 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		26AB1A95B1F6F71DCD6F848F3B1D77CE /* Pods-Tumblrbot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tumblrbot.release.xcconfig"; sourceTree = "<group>"; };
+		26F8FDF2CCB2ED5ECBDC702A3F63A713 /* TMRequestParamaterizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMRequestParamaterizer.h; path = Classes/TMRequestHelpers/TMRequestParamaterizer.h; sourceTree = "<group>"; };
+		282A7AE0491B04A96A8C0D4A822D4A05 /* TMMultipartRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMultipartRequestBody.h; path = Classes/Networking/RequestBody/TMMultipartRequestBody.h; sourceTree = "<group>"; };
+		2BC0A01898FAAFCCD2717F976211553D /* TMBasicBaseURLDeterminer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMBasicBaseURLDeterminer.h; path = Classes/TMBasicBaseURLDeterminer.h; sourceTree = "<group>"; };
+		2BDA4360D705716269BA08E979906B92 /* TMRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMRequest.h; path = Classes/TMRequest/TMRequest.h; sourceTree = "<group>"; };
+		2CDB81297F3DD4FEA440CA11EF8D3883 /* TMRouteConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMRouteConstants.h; path = Classes/TMRouteConstants.h; sourceTree = "<group>"; };
+		2EB9646FAFB9DEEE90AC066E99FE3BF6 /* TMAPIUserCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIUserCredentials.m; path = Classes/TMAPIUserCredentials.m; sourceTree = "<group>"; };
+		2F866957B889F6D4BD5CFE1E45A01AD7 /* Pods-TumblrbotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TumblrbotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31B866EE1D58D4A0A139093E45DDCA7C /* TMAuthTokenRequestGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAuthTokenRequestGenerator.m; path = Classes/Auth/TMAuthTokenRequestGenerator.m; sourceTree = "<group>"; };
+		3279A86A2D799B8BDB6E88D4AB1BA21F /* TMNetworkActivityVisiblityCounter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMNetworkActivityVisiblityCounter.m; path = Classes/Networking/TMNetworkActivityVisiblityCounter.m; sourceTree = "<group>"; };
+		33D9F9454789165C07C05F4957F844B2 /* TMJSONEncodedRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMJSONEncodedRequestBody.h; path = Classes/Networking/RequestBody/TMJSONEncodedRequestBody.h; sourceTree = "<group>"; };
+		33F292CC1C87488670CB5D9A028348B0 /* TMMultipartConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMultipartConstants.m; path = Classes/Networking/Multipart/TMMultipartConstants.m; sourceTree = "<group>"; };
+		366D194A61D564187B85F32510EEEF3C /* TMParsedHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMParsedHTTPResponse.h; path = "Classes/Response Parsing/TMParsedHTTPResponse.h"; sourceTree = "<group>"; };
+		3736540D58DD0E8E8A4C0EAFE7DB69C6 /* TMQueryEncodedRequestBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMQueryEncodedRequestBody.m; path = Classes/Networking/RequestBody/TMQueryEncodedRequestBody.m; sourceTree = "<group>"; };
+		374EB38C338B282C657A21C93F46E301 /* TMTumblrSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMTumblrSDK.debug.xcconfig; sourceTree = "<group>"; };
+		3C63ED539A4729CEA0B67F5954CB01C9 /* Pods-Tumblrbot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tumblrbot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		403824B18EB7346E7A4450065F74A5B2 /* TMFormEncodedRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMFormEncodedRequestBody.h; path = Classes/Networking/RequestBody/TMFormEncodedRequestBody.h; sourceTree = "<group>"; };
+		407FC74B28CB9F4E92C032BA93C9D97E /* TMURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMURLSession.m; path = Classes/TMURLSession.m; sourceTree = "<group>"; };
+		4099660ABE992925C411E8240FFCBD5F /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		45774A6FFE344671B3873EF0325C9537 /* TMMultipartRequestBodyFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMultipartRequestBodyFactory.m; path = Classes/Networking/RequestBody/TMMultipartRequestBodyFactory.m; sourceTree = "<group>"; };
+		498F42876C2852AF7B76E3846E0A2050 /* TMMultipartFormData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMultipartFormData.h; path = Classes/Networking/Multipart/TMMultipartFormData.h; sourceTree = "<group>"; };
+		4B165959E4B01F9774CD1B638F14BDA8 /* TMJSONEncodedRequestBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMJSONEncodedRequestBody.m; path = Classes/Networking/RequestBody/TMJSONEncodedRequestBody.m; sourceTree = "<group>"; };
+		4BD09CA1A3FE2F1B435232231D9FB842 /* TMNetworkSpeedTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMNetworkSpeedTracker.m; path = Classes/Networking/TMNetworkSpeedTracker.m; sourceTree = "<group>"; };
+		4CC565AD103FD05F47A543A4D9096F26 /* TMResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMResponseParser.h; path = "Classes/Response Parsing/TMResponseParser.h"; sourceTree = "<group>"; };
+		4E8D0E3D1E2D1BB70556962DFC8261B1 /* TMMultipartPart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMultipartPart.m; path = Classes/Networking/Multipart/TMMultipartPart.m; sourceTree = "<group>"; };
+		503DF8DD048DF248328AAAA5F854B302 /* TMAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIClient.h; path = Classes/TMAPIClient.h; sourceTree = "<group>"; };
+		522ECF56CBA8F7CB02B7D9E926FAEBEB /* TMFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMFunctions.m; path = Classes/TMFunctions.m; sourceTree = "<group>"; };
+		52B2B7ED8B5A7EA50A78E0DD69DE44B4 /* TMURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLSession.h; path = Classes/TMURLSession.h; sourceTree = "<group>"; };
+		5667BD522B32EB8414A229455A3CA027 /* TMTumblrSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMTumblrSDK.release.xcconfig; sourceTree = "<group>"; };
+		59CDD5E45ACB31DDACAB1F00C2AF2698 /* TMURLSessionTaskStateProducer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMURLSessionTaskStateProducer.m; path = Classes/Networking/TMURLSessionTaskStateProducer.m; sourceTree = "<group>"; };
+		5E503656E2D6B1797DB43682BF951DC5 /* TMRequestMethodHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMRequestMethodHelpers.m; path = Classes/TMRequestHelpers/TMRequestMethodHelpers.m; sourceTree = "<group>"; };
+		608215D323D52F6F039F50C3B52E2134 /* TMAuthenticationCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAuthenticationCallback.h; path = Classes/Auth/TMAuthenticationCallback.h; sourceTree = "<group>"; };
+		642A79A0EE94A9FBE20A4BEEC733118B /* TMFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMFunctions.h; path = Classes/TMFunctions.h; sourceTree = "<group>"; };
+		644D2EEF1204B846E81359688D7615F1 /* TMBaseURLDetermining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMBaseURLDetermining.h; path = Classes/TMBaseURLDetermining.h; sourceTree = "<group>"; };
+		6567BD987B6777EF0AB3F08555F2A80D /* TMURLConcreteSessionTaskDelegateContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLConcreteSessionTaskDelegateContainer.h; path = Classes/Networking/TMURLConcreteSessionTaskDelegateContainer.h; sourceTree = "<group>"; };
+		65A41B25CED5332835F3A818B1CA4C88 /* TMRequestMethodHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMRequestMethodHelpers.h; path = Classes/TMRequestHelpers/TMRequestMethodHelpers.h; sourceTree = "<group>"; };
+		65B226AA71F4618DE0AC4EA0FEF6CDEF /* TMOAuthAuthenticator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMOAuthAuthenticator.m; path = Classes/Auth/TMOAuthAuthenticator.m; sourceTree = "<group>"; };
+		678C6A278E65EC4486FD4F000BEB885D /* NSURLRequest+TMTumblrSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+TMTumblrSDK.h"; path = "Classes/Networking/NSURLRequest+TMTumblrSDK.h"; sourceTree = "<group>"; };
+		693042997E26B67B86A43D9DC54E58FD /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		6B098B7E417234DA96BCF3297F7DB049 /* TMURLSessionMetricsDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLSessionMetricsDelegate.h; path = Classes/Networking/TMURLSessionMetricsDelegate.h; sourceTree = "<group>"; };
+		6B2F45180BC8E35497BC6BCE2B3401A5 /* TMTopLevelAPIError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTopLevelAPIError.h; path = Classes/Errors/TMTopLevelAPIError.h; sourceTree = "<group>"; };
+		6E60CDF09DDDD6D814D5B5DB0CB5B46E /* TMAPIApplicationCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIApplicationCredentials.h; path = Classes/TMAPIApplicationCredentials.h; sourceTree = "<group>"; };
+		6EF64CB6230E6EBAC54979B2E23DF765 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		7414308842B9ACEB240EBF59EC0A5DE3 /* NSMutableURLRequest+TMTumblrSDKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+TMTumblrSDKAdditions.h"; path = "Classes/Networking/NSMutableURLRequest+TMTumblrSDKAdditions.h"; sourceTree = "<group>"; };
+		74A7E03B1A98D89F63ED38E64D01A626 /* TMNetworkSpeedTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMNetworkSpeedTracker.h; path = Classes/Networking/TMNetworkSpeedTracker.h; sourceTree = "<group>"; };
+		777A4475F57E5B271C0274F168FC5D16 /* TMSDKUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKUserAgent.m; path = Classes/TMSDKUserAgent.m; sourceTree = "<group>"; };
+		7829DF561FD7B760AA9A5B94392A9D48 /* TMAPIRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIRequest.m; path = Classes/TMRequest/TMAPIRequest.m; sourceTree = "<group>"; };
+		7C6E0928245353B08AEE36A42ED8BC44 /* Pods-TumblrbotTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TumblrbotTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D1914DA772DFF9EEC24239D4927EAB7 /* TMMultipartFormData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMultipartFormData.m; path = Classes/Networking/Multipart/TMMultipartFormData.m; sourceTree = "<group>"; };
+		7D7CF0EBB7475A17AC78C0980D136D60 /* TMOAuthAuthenticatorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMOAuthAuthenticatorDelegate.h; path = Classes/Auth/TMOAuthAuthenticatorDelegate.h; sourceTree = "<group>"; };
+		7F65FFEF98CCE2681D33B7B0FA542DCD /* Pods-Tumblrbot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tumblrbot.modulemap"; sourceTree = "<group>"; };
+		80E7E7A9456C98EFE51FD7B5E17D34AC /* TMAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIClient.m; path = Classes/TMAPIClient.m; sourceTree = "<group>"; };
+		816C4B5EB75C0BE9C0ECB4934BCECA75 /* TMSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSession.h; path = Classes/TMSession.h; sourceTree = "<group>"; };
+		8259A9FA06562C865EF60F2AD2F1E9BE /* TMSDKFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKFunctions.m; path = Classes/TMSDKFunctions.m; sourceTree = "<group>"; };
+		83D6158FA0A661F645C240A68AE9D73B /* Pods-Tumblrbot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tumblrbot-acknowledgements.plist"; sourceTree = "<group>"; };
+		861A07D5249F3AFABA5B79352443270F /* TMURLSessionObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLSessionObserver.h; path = Classes/Networking/TMURLSessionObserver.h; sourceTree = "<group>"; };
+		867515D0748AC42E73868E1D51389478 /* TMNetworkSpeedQuality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMNetworkSpeedQuality.h; path = Classes/Networking/TMNetworkSpeedQuality.h; sourceTree = "<group>"; };
+		8693CCA58CC458169B6FCE1700438947 /* TMAPIError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIError.h; path = Classes/Errors/TMAPIError.h; sourceTree = "<group>"; };
+		87FE34E53102BCADFF2408CA062F18D6 /* Pods-Tumblrbot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tumblrbot-dummy.m"; sourceTree = "<group>"; };
+		880F1CBF23AE98CE786EADC73637A02B /* Pods-Tumblrbot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tumblrbot-umbrella.h"; sourceTree = "<group>"; };
+		8E6884F27CE24266FBE1FB795C2B099D /* TMConcreteURLSessionTaskDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMConcreteURLSessionTaskDelegate.h; path = Classes/Networking/TMConcreteURLSessionTaskDelegate.h; sourceTree = "<group>"; };
+		9103ACAE796B5C292B2728022EF39D94 /* TMAuthTokenRequestGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAuthTokenRequestGenerator.h; path = Classes/Auth/TMAuthTokenRequestGenerator.h; sourceTree = "<group>"; };
+		922BBD67637CECEBF965339E01D79B8D /* TMFormEncodedRequestBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMFormEncodedRequestBody.m; path = Classes/Networking/RequestBody/TMFormEncodedRequestBody.m; sourceTree = "<group>"; };
+		9292579FF6EA352CD0CBDD4A204EBA8C /* TMAPIErrorFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIErrorFactory.h; path = Classes/Errors/TMAPIErrorFactory.h; sourceTree = "<group>"; };
+		9323439E478C0C678291D7259E622408 /* TMAPIRequestKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIRequestKeys.h; path = Classes/TMAPIRequestKeys.h; sourceTree = "<group>"; };
+		93AA0A20BF6F6B03B0E51C72A94571AB /* TMURLSessionTaskStateProducer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLSessionTaskStateProducer.h; path = Classes/Networking/TMURLSessionTaskStateProducer.h; sourceTree = "<group>"; };
+		958C641F3CB55764C3A3FC8F0AF7EBF5 /* TMSessionTaskUpdateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSessionTaskUpdateDelegate.h; path = Classes/Networking/TMSessionTaskUpdateDelegate.h; sourceTree = "<group>"; };
+		95BD0E71C17FB0E4AD1B9A72CB488A15 /* TMTumblrSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMTumblrSDK-dummy.m"; sourceTree = "<group>"; };
+		974D232EAE4F176713BC1D8F50A65687 /* TMRouteConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMRouteConstants.m; path = Classes/TMRouteConstants.m; sourceTree = "<group>"; };
+		99CCDFF7356EB1BF94826D4C3878BAB3 /* TMRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMRequestBody.h; path = Classes/Networking/RequestBody/TMRequestBody.h; sourceTree = "<group>"; };
+		9AB9580E87D44B5255318F8F5B23AF27 /* TMHTTPResponseErrorCodes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMHTTPResponseErrorCodes.m; path = "Classes/Response Parsing/TMHTTPResponseErrorCodes.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9E7C071AA2E30E9C1482AF7478326F /* TMConcreteURLSessionTaskDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMConcreteURLSessionTaskDelegate.m; path = Classes/Networking/TMConcreteURLSessionTaskDelegate.m; sourceTree = "<group>"; };
+		A22036EF09F54A73CB36D13E65B456F0 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		A2A5999B22499857E241F748408F6AD3 /* TMAuthenticationResponseProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAuthenticationResponseProcessor.m; path = Classes/Auth/TMAuthenticationResponseProcessor.m; sourceTree = "<group>"; };
+		A85D53FC5A25D4580A4CD16B3102A74A /* TMMultipartConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMultipartConstants.h; path = Classes/Networking/Multipart/TMMultipartConstants.h; sourceTree = "<group>"; };
+		AA008E3DD2C50F4396CED81DACE469E1 /* TMHTTPResponseErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMHTTPResponseErrorCodes.h; path = "Classes/Response Parsing/TMHTTPResponseErrorCodes.h"; sourceTree = "<group>"; };
+		AAE3480291ADED3DA38E5043A46C9376 /* TMNetworkActivityVisiblityCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMNetworkActivityVisiblityCounter.h; path = Classes/Networking/TMNetworkActivityVisiblityCounter.h; sourceTree = "<group>"; };
+		AD27D939F117D36467C46BB5872F1842 /* Pods-TumblrbotTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TumblrbotTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2DCFCD0FB1603491288167ED5834D92 /* TMTumblrSDKErrorDomain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrSDKErrorDomain.h; path = Classes/TMTumblrSDKErrorDomain.h; sourceTree = "<group>"; };
+		B48EE199A0A777AC85F213394D7C6A8E /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		B4A0B9C3678356119191C050654C5E75 /* TMRequestFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMRequestFactory.m; path = Classes/TMRequestFactory.m; sourceTree = "<group>"; };
+		B6B0D53B199090D8244AB59A0F924903 /* TMRequestFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMRequestFactory.h; path = Classes/TMRequestFactory.h; sourceTree = "<group>"; };
+		B6B45366A027DA9F29289F265A6C023A /* TMXAuthAuthenticator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMXAuthAuthenticator.h; path = Classes/Auth/TMXAuthAuthenticator.h; sourceTree = "<group>"; };
+		B7E3D74FA2F0A472F7B1370E3C202F0B /* TMAuthenticationConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAuthenticationConstants.m; path = Classes/Auth/TMAuthenticationConstants.m; sourceTree = "<group>"; };
+		B94002DE6DDBB8893C8CC369AE2B7363 /* Pods-Tumblrbot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tumblrbot.debug.xcconfig"; sourceTree = "<group>"; };
+		BC9A9D49DEFECDD742E3E6971D044FD3 /* TMOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMOAuth.m; path = Classes/Auth/TMOAuth.m; sourceTree = "<group>"; };
+		BCA7C8344A7A0639F4D07726FAD70752 /* TMGZIPEncodedRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMGZIPEncodedRequestBody.h; path = Classes/Networking/RequestBody/TMGZIPEncodedRequestBody.h; sourceTree = "<group>"; };
+		BDAA8E280302785C2424AB6E0EEC848B /* TMAuthenticationConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAuthenticationConstants.h; path = Classes/Auth/TMAuthenticationConstants.h; sourceTree = "<group>"; };
+		C037646D8702429609B3CF7173B732B7 /* TMOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMOAuth.h; path = Classes/Auth/TMOAuth.h; sourceTree = "<group>"; };
+		C29DE82D6B7E77C66B38C5B143B8575E /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		C77512B4F84581417366E309A77384EB /* TMMultipartRequestBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMultipartRequestBody.m; path = Classes/Networking/RequestBody/TMMultipartRequestBody.m; sourceTree = "<group>"; };
+		C7D5D42B3EB91B0251F21FAC4D0978E3 /* TMSDKFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKFunctions.h; path = Classes/TMSDKFunctions.h; sourceTree = "<group>"; };
+		CC0925D42D73244A98783CF4334C9B5A /* TMURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLEncoding.h; path = Classes/Networking/TMURLEncoding.h; sourceTree = "<group>"; };
+		CFE8237EB8E5E5159CE3DDFABC3ACFC6 /* TMHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMHTTPRequest.h; path = Classes/TMRequest/TMHTTPRequest.h; sourceTree = "<group>"; };
+		D0682F8C207590EC27A4B80CE6373F13 /* TMTumblrSDKErrorDomain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrSDKErrorDomain.m; path = Classes/TMTumblrSDKErrorDomain.m; sourceTree = "<group>"; };
+		D0EAA4C8E2D2A93683A06BEFCC1EDE4A /* TMURLSessionCallbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLSessionCallbacks.h; path = Classes/TMURLSessionCallbacks.h; sourceTree = "<group>"; };
+		D15861A7E3B48763828C85FA46C99B8E /* TMLegacyAPIError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMLegacyAPIError.m; path = Classes/Errors/TMLegacyAPIError.m; sourceTree = "<group>"; };
+		D448E9D0ED085C6B65F5F83C5261B7BE /* TMAPIUserCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIUserCredentials.h; path = Classes/TMAPIUserCredentials.h; sourceTree = "<group>"; };
+		D917D5AE276DC051CC8EA26BBD854EB3 /* TMLegacyAPIError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMLegacyAPIError.h; path = Classes/Errors/TMLegacyAPIError.h; sourceTree = "<group>"; };
+		DB460694351798F75410C58AEFBD4606 /* TMAPIRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIRequest.h; path = Classes/TMRequest/TMAPIRequest.h; sourceTree = "<group>"; };
+		DC3625553ACF62D5AD2DD9895E5E3123 /* TMMultipartRequestBodyFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMultipartRequestBodyFactory.h; path = Classes/Networking/RequestBody/TMMultipartRequestBodyFactory.h; sourceTree = "<group>"; };
+		DDE76654CDECB9D1DB950FCB01D729B6 /* TMSDKUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKUserAgent.h; path = Classes/TMSDKUserAgent.h; sourceTree = "<group>"; };
+		DE978373FD17413841FE05CDF4A4145B /* TMBasicBaseURLDeterminer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMBasicBaseURLDeterminer.m; path = Classes/TMBasicBaseURLDeterminer.m; sourceTree = "<group>"; };
+		E0C5FC8C4FE6D5FF9188E305C8E8487F /* TMUploadSessionTaskCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUploadSessionTaskCreator.h; path = Classes/Networking/TMUploadSessionTaskCreator.h; sourceTree = "<group>"; };
+		E446E0E6A4E03976F02016C95BF0D3D1 /* TMURLSessionTaskObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMURLSessionTaskObserver.m; path = Classes/Networking/TMURLSessionTaskObserver.m; sourceTree = "<group>"; };
+		E53904AA630623954D517A4A55A7AAD6 /* TMAPIErrorFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIErrorFactory.m; path = Classes/Errors/TMAPIErrorFactory.m; sourceTree = "<group>"; };
+		E7171E2248D7691EC4F223FD84959D95 /* Pods-TumblrbotTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-TumblrbotTests"; path = "libPods-TumblrbotTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74A67877342E67FD9E48F6D215D3CD2 /* Pods-TumblrbotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TumblrbotTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8D8FB12B22B5808B6E51384FEA516A7 /* Pods-TumblrbotTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TumblrbotTests-dummy.m"; sourceTree = "<group>"; };
+		EE8A03182BEAC682F18D306F8F70B809 /* TMAPIRequestKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIRequestKeys.m; path = Classes/TMAPIRequestKeys.m; sourceTree = "<group>"; };
+		F17627F16B12C3B7A296E59A067ED05E /* TMOAuthAuthenticator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMOAuthAuthenticator.h; path = Classes/Auth/TMOAuthAuthenticator.h; sourceTree = "<group>"; };
+		F1CA49F3AE1A9AA3BF50C5D70251FE36 /* TMURLConcreteSessionTaskDelegateContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMURLConcreteSessionTaskDelegateContainer.m; path = Classes/Networking/TMURLConcreteSessionTaskDelegateContainer.m; sourceTree = "<group>"; };
+		F27DD18D12A103C9D5EE8BE0A99901BC /* TMGZIPEncodedRequestBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMGZIPEncodedRequestBody.m; path = Classes/Networking/RequestBody/TMGZIPEncodedRequestBody.m; sourceTree = "<group>"; };
+		F6578C574A7247439ED0547D38DD9144 /* TMHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMHTTPRequest.m; path = Classes/TMRequest/TMHTTPRequest.m; sourceTree = "<group>"; };
+		F6622867F824472B8D4CF0D3C5E8C21E /* TMRequestTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMRequestTransformer.h; path = Classes/TMRequestHelpers/TMRequestTransformer.h; sourceTree = "<group>"; };
+		F8A06D8CF1FD7E7CD45824FDD5FB4BFF /* TMURLSessionTaskState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLSessionTaskState.h; path = Classes/Networking/TMURLSessionTaskState.h; sourceTree = "<group>"; };
+		FA5CA1716F81CE09D91E75A12B7E8D7C /* TMAPIApplicationCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIApplicationCredentials.m; path = Classes/TMAPIApplicationCredentials.m; sourceTree = "<group>"; };
+		FEE6A2CD98FC5D41B507A0E4C27D02AC /* TMURLSessionTaskObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMURLSessionTaskObserver.h; path = Classes/Networking/TMURLSessionTaskObserver.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78E39F95E089047027BAF024CCF5B2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86073A0A479C36375BE0ED528EAA7AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F144A2A79A0FF99EF57B9F07BD50551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26EB55162B4B21535DA5DB1DDBB9990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28EB3C2D48B8692C5A9333E1FA0DCBBF /* Pods-Tumblrbot */ = {
+			isa = PBXGroup;
+			children = (
+				7F65FFEF98CCE2681D33B7B0FA542DCD /* Pods-Tumblrbot.modulemap */,
+				3C63ED539A4729CEA0B67F5954CB01C9 /* Pods-Tumblrbot-acknowledgements.markdown */,
+				83D6158FA0A661F645C240A68AE9D73B /* Pods-Tumblrbot-acknowledgements.plist */,
+				87FE34E53102BCADFF2408CA062F18D6 /* Pods-Tumblrbot-dummy.m */,
+				880F1CBF23AE98CE786EADC73637A02B /* Pods-Tumblrbot-umbrella.h */,
+				B94002DE6DDBB8893C8CC369AE2B7363 /* Pods-Tumblrbot.debug.xcconfig */,
+				26AB1A95B1F6F71DCD6F848F3B1D77CE /* Pods-Tumblrbot.release.xcconfig */,
+			);
+			name = "Pods-Tumblrbot";
+			path = "Target Support Files/Pods-Tumblrbot";
+			sourceTree = "<group>";
+		};
+		30734C030D069A60BBE196689DEAA91A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48EE199A0A777AC85F213394D7C6A8E /* ReachabilitySwift.modulemap */,
+				2650C74577D9844F0436F70C2B6ABB14 /* ReachabilitySwift-dummy.m */,
+				A22036EF09F54A73CB36D13E65B456F0 /* ReachabilitySwift-prefix.pch */,
+				C29DE82D6B7E77C66B38C5B143B8575E /* ReachabilitySwift-umbrella.h */,
+				693042997E26B67B86A43D9DC54E58FD /* ReachabilitySwift.debug.xcconfig */,
+				4099660ABE992925C411E8240FFCBD5F /* ReachabilitySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		514DCBEBCEBFA1D5AA4DDFB06157B9E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BD0E71C17FB0E4AD1B9A72CB488A15 /* TMTumblrSDK-dummy.m */,
+				18F170465A5EE5B43812D5BBEF670AC1 /* TMTumblrSDK-prefix.pch */,
+				374EB38C338B282C657A21C93F46E301 /* TMTumblrSDK.debug.xcconfig */,
+				5667BD522B32EB8414A229455A3CA027 /* TMTumblrSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TMTumblrSDK";
+			sourceTree = "<group>";
+		};
+		67336E767A3A6F34632923084014637C /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				6EF64CB6230E6EBAC54979B2E23DF765 /* Reachability.swift */,
+				30734C030D069A60BBE196689DEAA91A /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		67864521D58F80670FA582B4D436A81A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67336E767A3A6F34632923084014637C /* ReachabilitySwift */,
+				EC044915728FE8E40F3D2824F30F12D4 /* TMTumblrSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87204B6E6A32EC8510C7C017B7A09B35 /* Pods-TumblrbotTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD27D939F117D36467C46BB5872F1842 /* Pods-TumblrbotTests-acknowledgements.markdown */,
+				7C6E0928245353B08AEE36A42ED8BC44 /* Pods-TumblrbotTests-acknowledgements.plist */,
+				E8D8FB12B22B5808B6E51384FEA516A7 /* Pods-TumblrbotTests-dummy.m */,
+				2F866957B889F6D4BD5CFE1E45A01AD7 /* Pods-TumblrbotTests.debug.xcconfig */,
+				E74A67877342E67FD9E48F6D215D3CD2 /* Pods-TumblrbotTests.release.xcconfig */,
+			);
+			name = "Pods-TumblrbotTests";
+			path = "Target Support Files/Pods-TumblrbotTests";
+			sourceTree = "<group>";
+		};
+		8C71595F5E1A8E0A3B4534F68D9D2803 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28EB3C2D48B8692C5A9333E1FA0DCBBF /* Pods-Tumblrbot */,
+				87204B6E6A32EC8510C7C017B7A09B35 /* Pods-TumblrbotTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F7EBD988177CA4FBDEB54F2F1B42466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C7B308031A97C856CA8CC733551AE45 /* Pods-Tumblrbot */,
+				E7171E2248D7691EC4F223FD84959D95 /* Pods-TumblrbotTests */,
+				21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */,
+				071A5B6413BC7BF707F1F5E35C004EB2 /* TMTumblrSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				67864521D58F80670FA582B4D436A81A /* Pods */,
+				9F7EBD988177CA4FBDEB54F2F1B42466 /* Products */,
+				8C71595F5E1A8E0A3B4534F68D9D2803 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC044915728FE8E40F3D2824F30F12D4 /* TMTumblrSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7414308842B9ACEB240EBF59EC0A5DE3 /* NSMutableURLRequest+TMTumblrSDKAdditions.h */,
+				08D6133502AF31C8AAA46453ACE6B1C0 /* NSMutableURLRequest+TMTumblrSDKAdditions.m */,
+				678C6A278E65EC4486FD4F000BEB885D /* NSURLRequest+TMTumblrSDK.h */,
+				00582632E7D077254A5AAEF83B9A2B9E /* NSURLRequest+TMTumblrSDK.m */,
+				6E60CDF09DDDD6D814D5B5DB0CB5B46E /* TMAPIApplicationCredentials.h */,
+				FA5CA1716F81CE09D91E75A12B7E8D7C /* TMAPIApplicationCredentials.m */,
+				503DF8DD048DF248328AAAA5F854B302 /* TMAPIClient.h */,
+				80E7E7A9456C98EFE51FD7B5E17D34AC /* TMAPIClient.m */,
+				096CE907F6CCC5483D84AC844197C785 /* TMAPIClientCallbackConverter.h */,
+				1B34E58406D4AA314862F68AA7B971DE /* TMAPIClientCallbackConverter.m */,
+				8693CCA58CC458169B6FCE1700438947 /* TMAPIError.h */,
+				9292579FF6EA352CD0CBDD4A204EBA8C /* TMAPIErrorFactory.h */,
+				E53904AA630623954D517A4A55A7AAD6 /* TMAPIErrorFactory.m */,
+				DB460694351798F75410C58AEFBD4606 /* TMAPIRequest.h */,
+				7829DF561FD7B760AA9A5B94392A9D48 /* TMAPIRequest.m */,
+				9323439E478C0C678291D7259E622408 /* TMAPIRequestKeys.h */,
+				EE8A03182BEAC682F18D306F8F70B809 /* TMAPIRequestKeys.m */,
+				D448E9D0ED085C6B65F5F83C5261B7BE /* TMAPIUserCredentials.h */,
+				2EB9646FAFB9DEEE90AC066E99FE3BF6 /* TMAPIUserCredentials.m */,
+				608215D323D52F6F039F50C3B52E2134 /* TMAuthenticationCallback.h */,
+				BDAA8E280302785C2424AB6E0EEC848B /* TMAuthenticationConstants.h */,
+				B7E3D74FA2F0A472F7B1370E3C202F0B /* TMAuthenticationConstants.m */,
+				0A246080477772099E27066262E44C4A /* TMAuthenticationResponseProcessor.h */,
+				A2A5999B22499857E241F748408F6AD3 /* TMAuthenticationResponseProcessor.m */,
+				9103ACAE796B5C292B2728022EF39D94 /* TMAuthTokenRequestGenerator.h */,
+				31B866EE1D58D4A0A139093E45DDCA7C /* TMAuthTokenRequestGenerator.m */,
+				644D2EEF1204B846E81359688D7615F1 /* TMBaseURLDetermining.h */,
+				2BC0A01898FAAFCCD2717F976211553D /* TMBasicBaseURLDeterminer.h */,
+				DE978373FD17413841FE05CDF4A4145B /* TMBasicBaseURLDeterminer.m */,
+				8E6884F27CE24266FBE1FB795C2B099D /* TMConcreteURLSessionTaskDelegate.h */,
+				9E9E7C071AA2E30E9C1482AF7478326F /* TMConcreteURLSessionTaskDelegate.m */,
+				403824B18EB7346E7A4450065F74A5B2 /* TMFormEncodedRequestBody.h */,
+				922BBD67637CECEBF965339E01D79B8D /* TMFormEncodedRequestBody.m */,
+				642A79A0EE94A9FBE20A4BEEC733118B /* TMFunctions.h */,
+				522ECF56CBA8F7CB02B7D9E926FAEBEB /* TMFunctions.m */,
+				BCA7C8344A7A0639F4D07726FAD70752 /* TMGZIPEncodedRequestBody.h */,
+				F27DD18D12A103C9D5EE8BE0A99901BC /* TMGZIPEncodedRequestBody.m */,
+				CFE8237EB8E5E5159CE3DDFABC3ACFC6 /* TMHTTPRequest.h */,
+				F6578C574A7247439ED0547D38DD9144 /* TMHTTPRequest.m */,
+				185781D1E00DEF7AF675A493ABD3CF6D /* TMHTTPRequestMethod.h */,
+				AA008E3DD2C50F4396CED81DACE469E1 /* TMHTTPResponseErrorCodes.h */,
+				9AB9580E87D44B5255318F8F5B23AF27 /* TMHTTPResponseErrorCodes.m */,
+				33D9F9454789165C07C05F4957F844B2 /* TMJSONEncodedRequestBody.h */,
+				4B165959E4B01F9774CD1B638F14BDA8 /* TMJSONEncodedRequestBody.m */,
+				D917D5AE276DC051CC8EA26BBD854EB3 /* TMLegacyAPIError.h */,
+				D15861A7E3B48763828C85FA46C99B8E /* TMLegacyAPIError.m */,
+				A85D53FC5A25D4580A4CD16B3102A74A /* TMMultipartConstants.h */,
+				33F292CC1C87488670CB5D9A028348B0 /* TMMultipartConstants.m */,
+				498F42876C2852AF7B76E3846E0A2050 /* TMMultipartFormData.h */,
+				7D1914DA772DFF9EEC24239D4927EAB7 /* TMMultipartFormData.m */,
+				1A06F8B0FC56E405D8F302A0E23BB1FC /* TMMultipartPart.h */,
+				4E8D0E3D1E2D1BB70556962DFC8261B1 /* TMMultipartPart.m */,
+				282A7AE0491B04A96A8C0D4A822D4A05 /* TMMultipartRequestBody.h */,
+				C77512B4F84581417366E309A77384EB /* TMMultipartRequestBody.m */,
+				DC3625553ACF62D5AD2DD9895E5E3123 /* TMMultipartRequestBodyFactory.h */,
+				45774A6FFE344671B3873EF0325C9537 /* TMMultipartRequestBodyFactory.m */,
+				22E092DD0FC51B84C187F332A8388285 /* TMNetworkActivityIndicatorManager.h */,
+				AAE3480291ADED3DA38E5043A46C9376 /* TMNetworkActivityVisiblityCounter.h */,
+				3279A86A2D799B8BDB6E88D4AB1BA21F /* TMNetworkActivityVisiblityCounter.m */,
+				867515D0748AC42E73868E1D51389478 /* TMNetworkSpeedQuality.h */,
+				74A7E03B1A98D89F63ED38E64D01A626 /* TMNetworkSpeedTracker.h */,
+				4BD09CA1A3FE2F1B435232231D9FB842 /* TMNetworkSpeedTracker.m */,
+				C037646D8702429609B3CF7173B732B7 /* TMOAuth.h */,
+				BC9A9D49DEFECDD742E3E6971D044FD3 /* TMOAuth.m */,
+				F17627F16B12C3B7A296E59A067ED05E /* TMOAuthAuthenticator.h */,
+				65B226AA71F4618DE0AC4EA0FEF6CDEF /* TMOAuthAuthenticator.m */,
+				7D7CF0EBB7475A17AC78C0980D136D60 /* TMOAuthAuthenticatorDelegate.h */,
+				366D194A61D564187B85F32510EEEF3C /* TMParsedHTTPResponse.h */,
+				0A2FC516580DCC23AD6BF529D99D6302 /* TMParsedHTTPResponse.m */,
+				04BDDC45063541D90DDB0681ED1EB6FB /* TMQueryEncodedRequestBody.h */,
+				3736540D58DD0E8E8A4C0EAFE7DB69C6 /* TMQueryEncodedRequestBody.m */,
+				2BDA4360D705716269BA08E979906B92 /* TMRequest.h */,
+				99CCDFF7356EB1BF94826D4C3878BAB3 /* TMRequestBody.h */,
+				B6B0D53B199090D8244AB59A0F924903 /* TMRequestFactory.h */,
+				B4A0B9C3678356119191C050654C5E75 /* TMRequestFactory.m */,
+				65A41B25CED5332835F3A818B1CA4C88 /* TMRequestMethodHelpers.h */,
+				5E503656E2D6B1797DB43682BF951DC5 /* TMRequestMethodHelpers.m */,
+				26F8FDF2CCB2ED5ECBDC702A3F63A713 /* TMRequestParamaterizer.h */,
+				1ABC8F8B0B67970A289038DA5CD12671 /* TMRequestParamaterizer.m */,
+				F6622867F824472B8D4CF0D3C5E8C21E /* TMRequestTransformer.h */,
+				4CC565AD103FD05F47A543A4D9096F26 /* TMResponseParser.h */,
+				08F4A5FAE4D7D65209464523CC7A039A /* TMResponseParser.m */,
+				2CDB81297F3DD4FEA440CA11EF8D3883 /* TMRouteConstants.h */,
+				974D232EAE4F176713BC1D8F50A65687 /* TMRouteConstants.m */,
+				C7D5D42B3EB91B0251F21FAC4D0978E3 /* TMSDKFunctions.h */,
+				8259A9FA06562C865EF60F2AD2F1E9BE /* TMSDKFunctions.m */,
+				DDE76654CDECB9D1DB950FCB01D729B6 /* TMSDKUserAgent.h */,
+				777A4475F57E5B271C0274F168FC5D16 /* TMSDKUserAgent.m */,
+				816C4B5EB75C0BE9C0ECB4934BCECA75 /* TMSession.h */,
+				958C641F3CB55764C3A3FC8F0AF7EBF5 /* TMSessionTaskUpdateDelegate.h */,
+				6B2F45180BC8E35497BC6BCE2B3401A5 /* TMTopLevelAPIError.h */,
+				1CD05E465B05F9A96222D897B75FB1EB /* TMTopLevelAPIError.m */,
+				B2DCFCD0FB1603491288167ED5834D92 /* TMTumblrSDKErrorDomain.h */,
+				D0682F8C207590EC27A4B80CE6373F13 /* TMTumblrSDKErrorDomain.m */,
+				E0C5FC8C4FE6D5FF9188E305C8E8487F /* TMUploadSessionTaskCreator.h */,
+				2102E0F8D4D048CCFCA0DF71A763F96E /* TMUploadSessionTaskCreator.m */,
+				6567BD987B6777EF0AB3F08555F2A80D /* TMURLConcreteSessionTaskDelegateContainer.h */,
+				F1CA49F3AE1A9AA3BF50C5D70251FE36 /* TMURLConcreteSessionTaskDelegateContainer.m */,
+				CC0925D42D73244A98783CF4334C9B5A /* TMURLEncoding.h */,
+				0463729D4406270A9483E036CDE15679 /* TMURLEncoding.m */,
+				52B2B7ED8B5A7EA50A78E0DD69DE44B4 /* TMURLSession.h */,
+				407FC74B28CB9F4E92C032BA93C9D97E /* TMURLSession.m */,
+				D0EAA4C8E2D2A93683A06BEFCC1EDE4A /* TMURLSessionCallbacks.h */,
+				6B098B7E417234DA96BCF3297F7DB049 /* TMURLSessionMetricsDelegate.h */,
+				861A07D5249F3AFABA5B79352443270F /* TMURLSessionObserver.h */,
+				11BD601FD93BC1B3AFB296C2EADE022C /* TMURLSessionObserver.m */,
+				FEE6A2CD98FC5D41B507A0E4C27D02AC /* TMURLSessionTaskObserver.h */,
+				E446E0E6A4E03976F02016C95BF0D3D1 /* TMURLSessionTaskObserver.m */,
+				F8A06D8CF1FD7E7CD45824FDD5FB4BFF /* TMURLSessionTaskState.h */,
+				93AA0A20BF6F6B03B0E51C72A94571AB /* TMURLSessionTaskStateProducer.h */,
+				59CDD5E45ACB31DDACAB1F00C2AF2698 /* TMURLSessionTaskStateProducer.m */,
+				B6B45366A027DA9F29289F265A6C023A /* TMXAuthAuthenticator.h */,
+				0416D6BE277CBA5F4F6CE41DA50EA83C /* TMXAuthAuthenticator.m */,
+				514DCBEBCEBFA1D5AA4DDFB06157B9E5 /* Support Files */,
+			);
+			name = TMTumblrSDK;
+			path = TMTumblrSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FDE936497B0100E367DCE0E4347EBD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7048069392F1E75ADBAFFF025D8BFA46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9954DF1659CE010DE1682A00155A2D /* Pods-Tumblrbot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEF76EC9D0C3A8D4589FD140655EFAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FA78D83DB2A663C40944D0FDAE9F03 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E63632FA670A866334FB1AEC5FBCB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DA0F579E4B5B3A3F413BB81ECD6B15 /* NSMutableURLRequest+TMTumblrSDKAdditions.h in Headers */,
+				267B6C278FD16DE893E5301C62414FC9 /* NSURLRequest+TMTumblrSDK.h in Headers */,
+				597316524B77CA02EA1295F54B792261 /* TMAPIApplicationCredentials.h in Headers */,
+				0ECCBCDFDBF496E97367039A77AD9B26 /* TMAPIClient.h in Headers */,
+				729319BF979BB007CF1897F8AA21C042 /* TMAPIClientCallbackConverter.h in Headers */,
+				C2C4A55CEA9E73C2F4CA4F7ADBD85D35 /* TMAPIError.h in Headers */,
+				2817FA86A7EC56DC27466963F130B3A3 /* TMAPIErrorFactory.h in Headers */,
+				C3C7F1CFDE0ABC80A87E851BAB94BDC6 /* TMAPIRequest.h in Headers */,
+				C32F665B44FE082B2CCE93367473D02F /* TMAPIRequestKeys.h in Headers */,
+				E615B36CBAA59F8C6D1BA71C51B12378 /* TMAPIUserCredentials.h in Headers */,
+				DE6EF7F553F9A16AA5499DB42420B327 /* TMAuthenticationCallback.h in Headers */,
+				2D3A0A82847732C52A53AB5BB6D1CA4C /* TMAuthenticationConstants.h in Headers */,
+				A0F0D7588DC9674ECCB6881A8814BEAB /* TMAuthenticationResponseProcessor.h in Headers */,
+				65274A63CB48FAF1173582B31EC4EB4A /* TMAuthTokenRequestGenerator.h in Headers */,
+				ECFDF47797641B09D1382088D737FC07 /* TMBaseURLDetermining.h in Headers */,
+				FEDD86673D73A47AF352BD9764B1DFEB /* TMBasicBaseURLDeterminer.h in Headers */,
+				4ADB2728B65067F4D070D070EA5F8266 /* TMConcreteURLSessionTaskDelegate.h in Headers */,
+				DE5693EA0DB307783FC6D5219A14FF3A /* TMFormEncodedRequestBody.h in Headers */,
+				FD61059D4C9E40ACEABF3FBD0225953E /* TMFunctions.h in Headers */,
+				9B492922240E5366A717C81E98046860 /* TMGZIPEncodedRequestBody.h in Headers */,
+				92294F0553A1A7ED865E92B01C22F4C7 /* TMHTTPRequest.h in Headers */,
+				48C8714BED459A32DB157E16AB076636 /* TMHTTPRequestMethod.h in Headers */,
+				11784A0EE5E750C17913A1CB1EA6E43F /* TMHTTPResponseErrorCodes.h in Headers */,
+				F152063A892E46D2832B5CC97B18B76C /* TMJSONEncodedRequestBody.h in Headers */,
+				6AF82C4CCCD60FC82A5383EC51DAA959 /* TMLegacyAPIError.h in Headers */,
+				1D196B8D85D9C59BB8EA312F941D34E1 /* TMMultipartConstants.h in Headers */,
+				53462026F41AE0B6173DAAEFD40C41BF /* TMMultipartFormData.h in Headers */,
+				80ED3A1DBC1ABDD25F3C0B55E0784DFD /* TMMultipartPart.h in Headers */,
+				FD6526495CBC988950171F5926271787 /* TMMultipartRequestBody.h in Headers */,
+				5E32FD829DFFC4B0317AB6743EA5433B /* TMMultipartRequestBodyFactory.h in Headers */,
+				66DE442009C5A6A2FBCBFAA8C2CB3D7D /* TMNetworkActivityIndicatorManager.h in Headers */,
+				EB81116A678D9F1C67B0F21BBC06F824 /* TMNetworkActivityVisiblityCounter.h in Headers */,
+				0095F4412DBCEDA91805CA7E2E7AD42B /* TMNetworkSpeedQuality.h in Headers */,
+				AAE2886922A9D9BA0B21D70BCEB5A898 /* TMNetworkSpeedTracker.h in Headers */,
+				E2B4660FEE0C64978B2F90A0E9B44443 /* TMOAuth.h in Headers */,
+				D138871D2A8F551EBF6F606D4ACCAD9E /* TMOAuthAuthenticator.h in Headers */,
+				0B3A344DE7C8EA0CB87F9FF9AE8D7061 /* TMOAuthAuthenticatorDelegate.h in Headers */,
+				C34162E3D340EB5646307E1D217230D4 /* TMParsedHTTPResponse.h in Headers */,
+				356E035DDDC2629452501067D7350B25 /* TMQueryEncodedRequestBody.h in Headers */,
+				F1C97C5C43449FC71374310956544076 /* TMRequest.h in Headers */,
+				47FE96406CFBEAA5A8DB6729AA2A2B85 /* TMRequestBody.h in Headers */,
+				58900AC8BB39CEA844790EF1C0568764 /* TMRequestFactory.h in Headers */,
+				CDEB57275ED2062EB9A9F22ABD5042B3 /* TMRequestMethodHelpers.h in Headers */,
+				95C5C5A128F2CADF343975AC04D56877 /* TMRequestParamaterizer.h in Headers */,
+				2DB11C94FB38774AA06F320FFE9E57D7 /* TMRequestTransformer.h in Headers */,
+				9BC65E8210622C00FC12D361266A5C89 /* TMResponseParser.h in Headers */,
+				06182057314020DD2FD55A9F008934F4 /* TMRouteConstants.h in Headers */,
+				1E7BFF5900A169368FEAB2DE481973D5 /* TMSDKFunctions.h in Headers */,
+				9C7AE018A63D4F9CF32B2121C12E0118 /* TMSDKUserAgent.h in Headers */,
+				A179CB1806A1CDA57589790D02F02231 /* TMSession.h in Headers */,
+				0CFC94F9B13082EFAA849FB7AA43522D /* TMSessionTaskUpdateDelegate.h in Headers */,
+				DC2E8FB1CD72835EAAB0321658AE12EB /* TMTopLevelAPIError.h in Headers */,
+				3898A6094BD1A2771D6E6B4859C91C0E /* TMTumblrSDKErrorDomain.h in Headers */,
+				D1609B1D5272F2A046AE0F48BFE4E4DC /* TMUploadSessionTaskCreator.h in Headers */,
+				30763C9BC0E82B48CDC3FD3476DD1820 /* TMURLConcreteSessionTaskDelegateContainer.h in Headers */,
+				DF80CD96773DB9B37B0F1C944CD6B87B /* TMURLEncoding.h in Headers */,
+				A964990B2F3944477B899FA4249555D9 /* TMURLSession.h in Headers */,
+				56FE3FF41B3729FC9408B3A832621622 /* TMURLSessionCallbacks.h in Headers */,
+				44E8928E4495049088B4C2BB73B7FB83 /* TMURLSessionMetricsDelegate.h in Headers */,
+				52211463EA9A68886701C0977605ECE7 /* TMURLSessionObserver.h in Headers */,
+				5CEED056A0303FBA198DC4E6B99BB916 /* TMURLSessionTaskObserver.h in Headers */,
+				5F772F0060FB28A19A85AB489C8A2318 /* TMURLSessionTaskState.h in Headers */,
+				24557D85FA7FDCA942AFB15E1FF7E436 /* TMURLSessionTaskStateProducer.h in Headers */,
+				C0DEB90E230EF6BBD65C2D7E9CCD61F0 /* TMXAuthAuthenticator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E878B5E9A63AF06DA568E0B9369514 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				DEEF76EC9D0C3A8D4589FD140655EFAB /* Headers */,
+				CBB4E37A7F01AAEC13416B81BF327B7C /* Sources */,
+				86073A0A479C36375BE0ED528EAA7AB8 /* Frameworks */,
+				DD77DDF5E43CBC954EA56F43EBE4A2F6 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A15E71F4D9440F6B1DE7F9FA47662C6 /* Pods-TumblrbotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B47D1E8E050DB361FAF08AAD4E192F /* Build configuration list for PBXNativeTarget "Pods-TumblrbotTests" */;
+			buildPhases = (
+				6FDE936497B0100E367DCE0E4347EBD2 /* Headers */,
+				3FA8AC71D4B87B2847DB218C0DF258B2 /* Sources */,
+				C26EB55162B4B21535DA5DB1DDBB9990 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DC0025D6DFFEABBD039C7C5B5CCDB65 /* PBXTargetDependency */,
+			);
+			name = "Pods-TumblrbotTests";
+			productName = "Pods-TumblrbotTests";
+			productReference = E7171E2248D7691EC4F223FD84959D95 /* Pods-TumblrbotTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9B3908F5436F138B90E9D50B4EA4E2EA /* Pods-Tumblrbot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB23E9B6D29E773C289DEF3FEB7FB5E /* Build configuration list for PBXNativeTarget "Pods-Tumblrbot" */;
+			buildPhases = (
+				7048069392F1E75ADBAFFF025D8BFA46 /* Headers */,
+				335B504BB8C92FE21491D03F87E49FE8 /* Sources */,
+				78E39F95E089047027BAF024CCF5B2D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2274A22B6EC523EABAA94CA96E744C59 /* PBXTargetDependency */,
+				1822B8C6A18E5F7F4C845540506AD865 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tumblrbot";
+			productName = "Pods-Tumblrbot";
+			productReference = 1C7B308031A97C856CA8CC733551AE45 /* Pods-Tumblrbot */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA0EBFD1658612C2FBF8B700F4D06669 /* TMTumblrSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F587E5666F4A4CBE706777F26621FC /* Build configuration list for PBXNativeTarget "TMTumblrSDK" */;
+			buildPhases = (
+				E5E63632FA670A866334FB1AEC5FBCB5 /* Headers */,
+				AD97DF3A3B6F268D580FD89EB942C6BE /* Sources */,
+				9F144A2A79A0FF99EF57B9F07BD50551 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMTumblrSDK;
+			productName = TMTumblrSDK;
+			productReference = 071A5B6413BC7BF707F1F5E35C004EB2 /* TMTumblrSDK */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9F7EBD988177CA4FBDEB54F2F1B42466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3908F5436F138B90E9D50B4EA4E2EA /* Pods-Tumblrbot */,
+				3A15E71F4D9440F6B1DE7F9FA47662C6 /* Pods-TumblrbotTests */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+				FA0EBFD1658612C2FBF8B700F4D06669 /* TMTumblrSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD77DDF5E43CBC954EA56F43EBE4A2F6 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Reachability/ReachabilitySwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/Reachability/ReachabilitySwift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Reachability/ReachabilitySwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Reachability/ReachabilitySwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335B504BB8C92FE21491D03F87E49FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34B6786BC71261EEA45E57C4A4862BA /* Pods-Tumblrbot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8AC71D4B87B2847DB218C0DF258B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC23D8D058E18D6A11442153B56B495 /* Pods-TumblrbotTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD97DF3A3B6F268D580FD89EB942C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B13B6AEAC5F67D3B3410DAB4BF093C /* NSMutableURLRequest+TMTumblrSDKAdditions.m in Sources */,
+				32FE1C67F00C3F88913BBF159DA29CDA /* NSURLRequest+TMTumblrSDK.m in Sources */,
+				AF0B19BBB888B84632C1A926D8A92CB3 /* TMAPIApplicationCredentials.m in Sources */,
+				DBE078A7159AC74D66B379FB8A6C0223 /* TMAPIClient.m in Sources */,
+				4FD55F66E4C44CBD052783DA2927B660 /* TMAPIClientCallbackConverter.m in Sources */,
+				55267F9E6C804C983CB9D7051B6AC557 /* TMAPIErrorFactory.m in Sources */,
+				6B8EA7CB6876E9D771BC712535C2AC14 /* TMAPIRequest.m in Sources */,
+				5BFF4CB26AAD6CC027791B88174A6271 /* TMAPIRequestKeys.m in Sources */,
+				A9103A796E103843695C1CB0206045B9 /* TMAPIUserCredentials.m in Sources */,
+				122B51A88A8DA813FFF16EA8868F599F /* TMAuthenticationConstants.m in Sources */,
+				093EA49ACEC8E0B7AF951A4E229A386F /* TMAuthenticationResponseProcessor.m in Sources */,
+				91758FE84B33828012252931162F459D /* TMAuthTokenRequestGenerator.m in Sources */,
+				E48CF5B9ACA37482156B2CBF28D715CC /* TMBasicBaseURLDeterminer.m in Sources */,
+				F5E5F41AF76D1C574146826EA77160F6 /* TMConcreteURLSessionTaskDelegate.m in Sources */,
+				B31D30D1399EE01D21B52AF3D5D7CEDE /* TMFormEncodedRequestBody.m in Sources */,
+				F9E5948416457A7B41B26B3EA2B4F415 /* TMFunctions.m in Sources */,
+				EDEA200025D250C0477343BBA8A272BE /* TMGZIPEncodedRequestBody.m in Sources */,
+				FC717D416BDEBDF35FBDC9EEE655C18C /* TMHTTPRequest.m in Sources */,
+				203981170037F36D13C0B10B3D8F51BE /* TMHTTPResponseErrorCodes.m in Sources */,
+				74397FA859C823FFDD3D85B5FF226AEC /* TMJSONEncodedRequestBody.m in Sources */,
+				222C5D5A9B4EC8043797670EE833D86F /* TMLegacyAPIError.m in Sources */,
+				93295854214B0AF70B81CEA20C10DCDC /* TMMultipartConstants.m in Sources */,
+				28AF96F586E09A527226DC38362B0EAC /* TMMultipartFormData.m in Sources */,
+				68AB85AD1280428B6BCEC327867A686B /* TMMultipartPart.m in Sources */,
+				B7E57CFB4BEF7828B7FFE169E7C14F1C /* TMMultipartRequestBody.m in Sources */,
+				B0F52C5CBDCE7715B6C9288E73BAEC01 /* TMMultipartRequestBodyFactory.m in Sources */,
+				9413A15BFACF65E909DB3AF1EB6D6D64 /* TMNetworkActivityVisiblityCounter.m in Sources */,
+				BFFAF960180A65ED65A11A8A102C601F /* TMNetworkSpeedTracker.m in Sources */,
+				404CB2385311FB25D46E543C401CFE9F /* TMOAuth.m in Sources */,
+				3C28359CC34EFA1245DFD3790F81E50B /* TMOAuthAuthenticator.m in Sources */,
+				E4B56F4D51589ECF70434C243A5DF79F /* TMParsedHTTPResponse.m in Sources */,
+				F29BB96AA75561A481D16BEA71E38471 /* TMQueryEncodedRequestBody.m in Sources */,
+				5D17288EF5FF0E0BC28997A32532A62F /* TMRequestFactory.m in Sources */,
+				4169931ABFB51C2A8EE3A4D0B6FD5D8E /* TMRequestMethodHelpers.m in Sources */,
+				68BBD9D626A033DB419BB7B604B5DF59 /* TMRequestParamaterizer.m in Sources */,
+				DD30ADB9C8A5FBB56752D3477C00A638 /* TMResponseParser.m in Sources */,
+				CA672CF8905E898F0ADE3FA2640A298A /* TMRouteConstants.m in Sources */,
+				546B80BBFA7D90129ACB1CD07F8738AA /* TMSDKFunctions.m in Sources */,
+				30847F70AE907D8156FA27513E48BCF4 /* TMSDKUserAgent.m in Sources */,
+				7FA77A0B1F8EC40501CF8F1FB593A8CC /* TMTopLevelAPIError.m in Sources */,
+				40787DBC563AEE5BCAA657529A3E8C73 /* TMTumblrSDK-dummy.m in Sources */,
+				6CF32ED83DFE8DFF5DCE5D62343AE6B2 /* TMTumblrSDKErrorDomain.m in Sources */,
+				C09551E7F5E23B8CBFE363356575BED7 /* TMUploadSessionTaskCreator.m in Sources */,
+				88DF7D7C8CE5BDDAA187A51A884ED230 /* TMURLConcreteSessionTaskDelegateContainer.m in Sources */,
+				EAC270928D65BC3C175EC611C00E9095 /* TMURLEncoding.m in Sources */,
+				D8A41482338731DB57FA8F83D17E5926 /* TMURLSession.m in Sources */,
+				7EBD6901BFF29B6E9ED6308AA6441A41 /* TMURLSessionObserver.m in Sources */,
+				1D1A90A6A4BDFE670133E96540211B26 /* TMURLSessionTaskObserver.m in Sources */,
+				54E6D60F4C1F7DC9CD62C1122DABDE60 /* TMURLSessionTaskStateProducer.m in Sources */,
+				C2C935013F0971EEAF9F2233266241F7 /* TMXAuthAuthenticator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB4E37A7F01AAEC13416B81BF327B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAA2EEDFD0873FFAD189198D91E4142 /* Reachability.swift in Sources */,
+				F84CCCFFD3EBDEB1A19E96562D1128A2 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1822B8C6A18E5F7F4C845540506AD865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TMTumblrSDK;
+			target = FA0EBFD1658612C2FBF8B700F4D06669 /* TMTumblrSDK */;
+			targetProxy = E549D17D1F038EE398D45B3D94DF8EBD /* PBXContainerItemProxy */;
+		};
+		2274A22B6EC523EABAA94CA96E744C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 02DCA44705525DCBD2C276004C5DC1CE /* PBXContainerItemProxy */;
+		};
+		7DC0025D6DFFEABBD039C7C5B5CCDB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tumblrbot";
+			target = 9B3908F5436F138B90E9D50B4EA4E2EA /* Pods-Tumblrbot */;
+			targetProxy = BD6131D693D1645E00981170131DF218 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21248864349DD2962799E9B20F034DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26AB1A95B1F6F71DCD6F848F3B1D77CE /* Pods-Tumblrbot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tumblrbot/Pods-Tumblrbot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		319760F26E1D0580A3AA1C1BC3CF6671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F866957B889F6D4BD5CFE1E45A01AD7 /* Pods-TumblrbotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65CF92082984A8D43B439298BF7494A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5667BD522B32EB8414A229455A3CA027 /* TMTumblrSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TMTumblrSDK/TMTumblrSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TMTumblrSDK;
+				PRODUCT_NAME = TMTumblrSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67765A578B8AC723B6721CFC52265611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94002DE6DDBB8893C8CC369AE2B7363 /* Pods-Tumblrbot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tumblrbot/Pods-Tumblrbot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		688D9BB45865EAF396AC4D6721E0DA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374EB38C338B282C657A21C93F46E301 /* TMTumblrSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TMTumblrSDK/TMTumblrSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TMTumblrSDK;
+				PRODUCT_NAME = TMTumblrSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708C6CF6FBE900EABDA67A3219CBC652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74A67877342E67FD9E48F6D215D3CD2 /* Pods-TumblrbotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4D90851A234565E88061269B329CA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693042997E26B67B86A43D9DC54E58FD /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Reachability/ReachabilitySwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = ReachabilitySwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC0987431F9520733429748C11C524AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4099660ABE992925C411E8240FFCBD5F /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Reachability/ReachabilitySwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = ReachabilitySwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F587E5666F4A4CBE706777F26621FC /* Build configuration list for PBXNativeTarget "TMTumblrSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688D9BB45865EAF396AC4D6721E0DA2A /* Debug */,
+				65CF92082984A8D43B439298BF7494A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E878B5E9A63AF06DA568E0B9369514 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D90851A234565E88061269B329CA1E /* Debug */,
+				EC0987431F9520733429748C11C524AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB23E9B6D29E773C289DEF3FEB7FB5E /* Build configuration list for PBXNativeTarget "Pods-Tumblrbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67765A578B8AC723B6721CFC52265611 /* Debug */,
+				21248864349DD2962799E9B20F034DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B47D1E8E050DB361FAF08AAD4E192F /* Build configuration list for PBXNativeTarget "Pods-TumblrbotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319760F26E1D0580A3AA1C1BC3CF6671 /* Debug */,
+				708C6CF6FBE900EABDA67A3219CBC652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

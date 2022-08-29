@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Tumblrbot
+
+  Created by Fernando Garcia Fernandez on 14/6/22.
+  Copyright © 2022 Tumblr. All rights reserved.
+*/
+
+"headerView.follow" = "Follow";
